@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+
+}
+.container ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none;
+}
+.container ul li{
+    border: solid 1px white;
+    padding: 0.5rem;
+
+}
+.container ul li:hover{
+   color: darkgreen;
+   background-color: white;
+   cursor: pointer;
+
+}

@@ -1,0 +1,44 @@
+.section{
+    padding: 2rem;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px darkgreen;
+    width: 50%;
+    height: 300px;
+    margin:1rem auto;
+    text-align: center;
+}
+.section h1{
+    color: darkgreen;
+    font-size: 3rem;
+}
+.section p{
+    padding: 0.5rem;
+    margin-top: 10% ;
+    border:solid 2px darkgreen;
+    background-color: white;
+}
+.section p:hover{
+    background-color: darkgreen;
+    color: white;
+    font-size: 1.2rem;
+    border: solid 2px white;
+    cursor: pointer;
+
+}
+.section button{
+    
+    background-color: darkgreen;
+    color: white;
+    width: 50%;
+    height: 3rem;
+    border:solid 1px white;
+
+} 
+.section button:hover{
+    cursor: pointer;
+    color: darkgreen;
+    background-color: white;
+}
